@@ -1,0 +1,15 @@
+{
+  "TEST": {
+    "get_msg": "TEST",
+    "msg_from": "exact",
+    "from": "private",
+    "return_msg": "ahh",
+    "open": true,
+    "wait": true,
+    "wait_config": {
+      "waitformsg": "aoo",
+      "return_msg": false,
+      "return_func": "gogo"
+    }
+  }
+}

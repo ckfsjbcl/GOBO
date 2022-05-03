@@ -1,0 +1,13 @@
+#config for GOBO
+
+#HTTP_CONTROL系列
+HTTP_CONTROL:
+  #是否开启init_handle关于sander字段的debug报错处理
+  debugforhttphandle: True
+
+#Plugins_in系列
+Plugins_in:
+  #是否开启在加载插件时播报插件内容简介
+  Openpluginintroductionbroadcast: True
+  #是否在发送完自动回复后继续执行后续函数
+  Automaticreplytosubsequentfunctionexecution: Flase
