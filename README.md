@@ -4,18 +4,18 @@
 
 ### 第一步：配置go-cqhttp
 
-  ####1.打开go-cqhttp文件夹，找到config.yml配置文件
-  ####2.修改account中的uin及password，具体参照注释
+  #### 1.打开go-cqhttp文件夹，找到config.yml配置文件
+  #### 2.修改account中的uin及password，具体参照注释
 
 ### 第二步：开始编写插件之路
 
-  ####1.创建插件文件：在plugins文件夹中创建一个新的文件夹，名字为插件名
-  ####2.创建目录如下
+  #### 1.创建插件文件：在plugins文件夹中创建一个新的文件夹，名字为插件名
+  #### 2.创建目录如下
       |-插件名(文件夹)(以下名字皆固定)
           |-__init__.py(内容固定为:from . import *)
           |-func.py(函数主程序)
           |-README.md(插件介绍,不会写可以不写)
-  ####3.func.pu内容:
+  #### 3.func.pu内容:
 
 ```python
 import HttpService
@@ -63,7 +63,7 @@ def function(GOBO):
     """
 ```
 
-  ####4.配置plugins.json文件
+  ####  4.配置plugins.json文件
   暂时不能自动化,抱歉
   请将倒数第二个大括号后添加一个逗号,然后换行(回车)
   然后再填充(中文部分)完下面一段话后复制上去:
