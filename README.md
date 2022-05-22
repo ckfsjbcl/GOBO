@@ -1,7 +1,7 @@
 # GOBO
 
 ## 入门配置
-
+### 第0步:安装flask框架
 ### 第一步：配置go-cqhttp
 
   #### 1.打开go-cqhttp文件夹，找到config.yml配置文件
